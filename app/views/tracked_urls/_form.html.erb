@@ -1,0 +1,5 @@
+<%= form_tag("/", method: "post") do %>
+  <%= label_tag(:q, "URL:") %>
+  <%= text_field_tag(:long_url) %>
+  <%= submit_tag("Shorten") %>
+<% end %>
